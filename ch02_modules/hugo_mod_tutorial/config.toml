@@ -2,7 +2,9 @@ baseurl = "/"
 languageCode = "ko"
 title = "A minimal Hugo website"
 
-# theme =  "hugo-xmin"
+# theme = ["my-shortcodes", "base-theme", "hyde"]
+
+
 [module]
   [[module.imports]]
     path = "github.com/yihui/hugo-xmin"
